@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    text-align: center;
+    margin-top: 4%;
+}
+
+h4 {
+    color: rgb(219, 70, 70);
+    font-family: 'Abel', sans-serif;
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+}
+
+.line {
+    height: 3px;
+    width: 14vw;
+    border-radius: 10px;
+    background-color: rgb(219, 70, 70);
+    margin: auto;
+}
+
+p {
+    margin: 20px 21%;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    width: 30vw;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 40px;
+}
+.images{
+    position: relative;
+}
+.images img{
+    width: 100%;
+}
+.name{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 20vw;
+    margin-left: 40px;
+    position: absolute;
+    top: 50%;
+    /* left: 80px; */
+    background-color: white;
+}
+.name h4{
+    font-size: 1rem;
+    padding: 8px 0;
+
+}
+.text p{
+    margin-top: 17%;
+}
+
+.icon a i {
+    color: rgb(236, 100, 100);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding-left: 13px;
+    margin-bottom: 20px;
+}
